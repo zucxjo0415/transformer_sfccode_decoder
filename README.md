@@ -23,7 +23,13 @@ $d=11$, $r=9$, $p=0.007$, 300,000,000 shots: MWPM decoder incorrectly predicts o
 $d=5$, $r=5$, $p=0.1$, 15,000,000 shots: MWPM decoder incorrectly predicts outcome in about 8.4% of cases. This did slightly better, but still not great. 
 
 $d=3$, $r=3$, $p=0.1$, 75,000,000 shots: MWPM decoder incorrectly predicts outcome in about 6% of cases. 
-Best F1: about 0.30; best precision: about 
+Best F1: about 0.30; best precision: about ???
+
+## Files in repo
+`stimcode.py`: Python code using `stim` to simulate data
+`syndrome3.npb`: syndrome measurements for $d=r=3, p=0.1$ case described above
+`obs3.npb`: MWPM logical error measurements for $d=r=3,p=0.1$ case described above
+`art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code.
 
 ## Some things to try 
 - Training for more epochs / with a more efficient library (e.g. Jax)

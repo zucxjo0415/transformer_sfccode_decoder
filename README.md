@@ -26,8 +26,8 @@ $d=3$, $r=3$, $p=0.1$, 75,000,000 shots: MWPM decoder incorrectly predicts outco
 Best F1: about 0.28; at present, the decoder is unable to correct more logical errors than it introduces. 
 
 ## Files in repo
-`stimcode.py`: Python code using `stim` to simulate data
-`art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code.
+- `stimcode.py`: Python code using `stim` to simulate data
+- `art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code.
 
 ## Some things to try 
 - Training for more epochs / with a more efficient library (e.g. Jax)

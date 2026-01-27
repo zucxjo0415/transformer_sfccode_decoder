@@ -23,7 +23,7 @@ $d=11$, $r=9$, $p=0.007$, 300,000,000 shots: MWPM decoder incorrectly predicts o
 $d=5$, $r=5$, $p=0.1$, 15,000,000 shots: MWPM decoder incorrectly predicts outcome in about 8.4% of cases. This did slightly better, but still not great. 
 
 $d=3$, $r=3$, $p=0.1$, 75,000,000 shots: MWPM decoder incorrectly predicts outcome in about 6% of cases. 
-Best F1: about 0.30; best precision: about ???
+Best F1: about 0.28; at present, the decoder is unable to correct more logical errors than it introduces. 
 
 ## Files in repo
 `stimcode.py`: Python code using `stim` to simulate data

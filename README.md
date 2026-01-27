@@ -27,8 +27,6 @@ Best F1: about 0.28; at present, the decoder is unable to correct more logical e
 
 ## Files in repo
 `stimcode.py`: Python code using `stim` to simulate data
-`syndrome3.npb`: syndrome measurements for $d=r=3, p=0.1$ case described above
-`obs3.npb`: MWPM logical error measurements for $d=r=3,p=0.1$ case described above
 `art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code.
 
 ## Some things to try 

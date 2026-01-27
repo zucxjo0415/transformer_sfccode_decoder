@@ -18,7 +18,7 @@ We then use a transformer decoder to predict the last bit (whether the MWPM deco
 Model hyperparameters: 6 heads, 6 hidden input dimension per head, 0.1 dropout. Training hyperparameters: learning rate 1E-5, batch size 128, using Adam.
 Since the classes were highly imbalanced (the MWPM decoder made incorrect predictions in <10% of instances), we used a weighted cross-entropy loss (with weights inversely proportional to the class proportions; this should be equivalent to oversampling the minority class / undersampling the majority class).
 
-$d=11$, $r=9$, $p=0.007$, 300,000,000 shots: MWPM decoder incorrectly predicts outcome in about 2.8% of cases. Due to memory issues, the transformer was trained only on 3,000,000 shots. This did not achieve good performance (likely due to insufficient data).
+$d=11$, $r=9$, $p=0.007$, 300,000,000 shots: MWPM decoder incorrectly predicts outcome in about 2.8% of cases. Due to memory issues, the transformer was trained only on 2,000,000 shots. This did not achieve good performance (likely due to insufficient data).
 
 $d=5$, $r=5$, $p=0.1$, 15,000,000 shots: MWPM decoder incorrectly predicts outcome in about 8.4% of cases. This did slightly better, but still not great. 
 

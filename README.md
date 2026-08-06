@@ -27,9 +27,10 @@ Best F1: about 0.28; at present, the decoder is unable to correct more logical e
 
 ## Files in repo
 - `stimcode.py`: Python code using `stim` to simulate data
-- `art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code.
+- `art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code (PyTorch).
+- `jax art sfccode decoder.ipynb`: Jupyter notebook containing Transformer code (Jax).
 
 ## Some things to try 
-- Training for more epochs / with a more efficient library (e.g. Jax)
+- Clean up the two notebooks, build out the Jax notebook more
 - A more sophisticated weighted loss function such as focal loss
 - Potentially a binary transformer (since we are using all binary inputs), with an appropriate positional encoding 
